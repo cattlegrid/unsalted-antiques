@@ -3,6 +3,6 @@ services:
     unsalted-antiques:
       image: builder555/unsalted-antiques
       privileged: true
-      port:
+      ports:
         - "80:80"
 
