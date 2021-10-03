@@ -1,0 +1,8 @@
+version: '2'
+services:    
+    unsalted-antiques:
+      image: builder555/unsalted-antiques
+      privileged: true
+      port:
+        - "80:80"
+
